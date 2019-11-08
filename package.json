@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-geta",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "default eslint config to be used on geta frontend projects",
   "main": "index.js",
   "repository": "https://github.com/Geta/eslint-config.git",

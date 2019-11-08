@@ -1,4 +1,4 @@
-# geta-eslint-config
+# eslint-config-config
 
 Generic eslint config Geta uses in their frontend projects.
 
@@ -9,13 +9,13 @@ Generic eslint config Geta uses in their frontend projects.
 #### NPM
 
 ```cmd
-npm install geta-eslint-config
+npm install eslint-config-geta
 ```
 
 #### Yarn
 
 ```cmd
-yarn add geta-eslint-config
+yarn add eslint-config-geta
 ```
 
 ### Update your .eslintrc file
@@ -24,7 +24,14 @@ yarn add geta-eslint-config
 2. Add the following to the config:
 ```json
 {
-  "extends": ["geta-eslint-config"]
+  "extends": ["eslint-config-geta"]
+}
+```
+
+or you can omit the `eslint-config` part, and extend it like this:
+```json
+{
+  "extends": ["geta"]
 }
 ```
 
