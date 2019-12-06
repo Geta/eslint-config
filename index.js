@@ -58,6 +58,8 @@ module.exports = {
     "import/no-named-as-default": 0,
     "@typescript-eslint/no-inferrable-types": 0,
     "import/no-duplicates": 0,
-    "import/named": 0
+    "import/named": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 };
